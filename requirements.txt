@@ -1,0 +1,11 @@
+matplotlib
+ipykernel
+pandas
+numpy
+seaborn
+plotly
+wordcloud
+nbformat>=4.2.0
+streamlit
+nltk
+reportlab

@@ -78,6 +78,11 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Project data outputs (derived / cache)
+data/prc/
+data/ref/
+data/_tmp_*
+
 # IPython
 profile_default/
 ipython_config.py

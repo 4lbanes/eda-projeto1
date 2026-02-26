@@ -1,0 +1,9 @@
+{
+  "equipe": "TODO - Nome da equipe",
+  "empresa": "Ibyte (ReclameAqui)",
+  "repositorio_notebooks": "TODO - Link do Colab ou GitHub (limpeza + EDA)",
+  "repositorio_dashboard": "TODO - Link do GitHub (código do dashboard)",
+  "dashboard_publicado": "TODO - Link público do deploy (Streamlit Cloud / Render / Plotly Cloud)",
+  "video": "TODO - Link do vídeo (YouTube ou Drive público)",
+  "observacoes": "Gerado automaticamente por scripts/generate_entregaveis_pdf.py"
+}
