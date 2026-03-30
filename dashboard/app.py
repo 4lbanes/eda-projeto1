@@ -192,6 +192,7 @@ def find_repo_root(start: Path) -> Path:
     for parent in [start, *start.parents]:
         if (parent / "data").exists() and (parent / "docs").exists():
             return parent
+        
     return start
 
 
@@ -201,6 +202,7 @@ def normalize_text(text: str) -> str:
     text = "".join(ch for ch in text if not unicodedata.combining(ch))
     text = re.sub(r"[^a-z\s]", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
+
     return text
 
 
@@ -217,6 +219,7 @@ def get_stopwords_pt() -> set[str]:
             stop |= set(stopwords.words("portuguese"))
     except Exception:
         pass
+    
     return stop
 
 
